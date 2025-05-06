@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sonríe... o no</title>
-    <link rel="stylesheet" href="main.css"/>
-</head>
-<body>
-    <div class="carita">😊</div>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="elementos">
+      <div class="carita">😊</div>
 
-    <div class="controles">
+      <div class="controles">
         <select id="mood">
-        <option value="happy"> Sonriente </option>
-        <option value="sad"> Triste </option>
+          <option value="happy">Sonriente</option>
+          <option value="sad">Triste</option>
 
-        <button onclick="updateMood()">Update</button>
-    </select>
+          <button onclick="updateMood()">Update</button>
+        </select>
+      </div>
     </div>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>

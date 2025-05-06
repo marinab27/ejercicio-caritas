@@ -1,9 +1,21 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #ffcc00;
+body {
+  background-color: #ffcc00;
+}
+
+.elementos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  font-size: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.controles {
 }
